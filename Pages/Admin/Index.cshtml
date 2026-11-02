@@ -1,0 +1,12 @@
+﻿@page
+@model AuthDemo.Pages.Admin.IndexModel
+
+<h1>Admin Dashboard</h1>
+
+<p>Welcome, @User.Identity?.Name!</p>
+
+<p>You are successfully logged in.</p>
+
+<form method="post" asp-page="/Account/Logout">
+    <button type="submit">Logout</button>
+</form>

@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Build files
+Debug/
+Release/
+
+# Sensitive data
+appsettings.*.json
+
+# IDE files
+.idea/
+.vscode/
